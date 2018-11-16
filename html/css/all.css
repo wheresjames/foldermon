@@ -1,0 +1,85 @@
+
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+	-webkit-user-select: none; /* Safari */
+	 -khtml-user-select: none; /* Konqueror HTML */
+	   -moz-user-select: none; /* Firefox */
+		-ms-user-select: none; /* Internet Explorer/Edge */
+			user-select: none; /* Non-prefixed version, currently
+								  supported by Chrome and Opera */
+}
+
+body, html
+{
+	position: fixed;
+	font-family: "Arial";
+}
+
+.pg-exists
+{
+	display: none;
+}
+
+#header
+{
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 0;
+	height: 40px;
+
+	background: #888;
+	opacity: .8;
+}
+
+#content
+{
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	padding: 0 0 0 0;
+	z-index: -1;
+}
+
+#footer
+{
+	position: fixed;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	height: 40px;
+
+	opacity: .8;
+	color: #fff;
+	background: #888;
+
+	padding: 1em;
+	font-size: 1.5em;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+#status
+{
+	position: fixed;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	height: 40px;
+	z-index: 1;
+
+	opacity: 0;
+	display: none;
+	color: #fff;
+	background: #888;
+
+	padding: 1em;
+	font-size: 1.5em;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+

@@ -1,0 +1,56 @@
+
+#folder_path
+{
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	height: 40px;
+
+	overflow: hidden;
+}
+
+.path-button
+{
+	height: 100%;
+}
+
+#folder_tree
+{
+	position: absolute;
+	left: 0;
+	width: 20%;
+	top: 42px;
+	bottom: 0;
+
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
+
+.tree-button
+{
+	width: 95%;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+#folder_list
+{
+	position: absolute;
+	width: 80%;
+	right: 0;
+	top: 42px;
+	bottom: 0;
+
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
+
+.list-button
+{
+	min-width: 300px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
