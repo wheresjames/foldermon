@@ -2,7 +2,7 @@
 
 Python script allowing remote monitoring and access to specified folder via HTTP and a web browser.
 
-![Screen Shot](https://raw.githubusercontent.com/wheresjames/filemon/master/docs/imgs/ss-filemon-md.png)
+![Screen Shot](https://raw.githubusercontent.com/wheresjames/foldermon/master/img/ss-filemon-md.png)
 
 
 ## Examples:
